@@ -1,0 +1,33 @@
+Body {
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.navbar {
+    display: flex;
+    width: 12rem;
+    top: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fffefe;
+    background-color: rgb(252, 249, 249);
+    border-radius: 25px;
+}
+
+.navbar a {
+    padding: 15px;
+}
+
+.navbar img {
+    width: 2em;
+    transition: box-shadow 0.3s ease;
+}
+
+/*
+.navbar a:hover {
+    border-radius: 25px;
+    border: 0px;
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+*/
