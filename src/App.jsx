@@ -7,7 +7,6 @@ import linkedinLogo from './assets/LinkedIn_icon.png'
 
 import '/styles/App.css'
 import "/styles/Navbar.css"
-import "animate.css/animate.compat.css"
 
 function App() {
   return (
@@ -26,8 +25,6 @@ function App() {
         </div>
       </div>
 
-      
-
       <div className='about-container'>
         <div className='about-section'>
           <h2>About</h2>
@@ -44,16 +41,12 @@ function App() {
         </div>
       </div>
 
-      
-
       <Education />
-
-      
 
       <Skills />
 
       
-
+      
     </>
   )
 }

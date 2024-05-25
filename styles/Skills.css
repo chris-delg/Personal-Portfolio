@@ -1,0 +1,23 @@
+.skills-container p {
+    text-shadow: 4px 4px 8px #000000;
+    font-weight: bold;
+}
+
+.row img {
+    width: 125px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: scale(1.2);
+}
