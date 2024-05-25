@@ -12,10 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  animation: transitionIn 0.75s;
+  animation: transitionIn 1.5s;
 
-  max-width: 100%;
-  overflow-x: hidden;
+  background-image: url("../src/assets/background_img.jpg");
 }
 
 @keyframes transitionIn {

@@ -1,0 +1,29 @@
+h2 {
+    text-decoration: underline;
+}
+
+.education-container {
+    margin-top: 50px;
+}
+
+.schools {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.school-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.school-info img {
+    height: 250px;
+    width: 325px;
+    border-radius: 25px;
+    border: 3px solid black;
+}
