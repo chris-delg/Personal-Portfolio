@@ -5,7 +5,7 @@ function Experience () {
         <div className='experience-container'>
             <h2>Experience</h2>
             <div className='experience-content'>
-                <img className='czi-logo' src='./src/assets/czi_logo.jpg' alt='Chan Zuckerberg Initiative logo'/>
+                <img className='czi-logo' src='/src/assets/czi_logo.jpg' alt='Chan Zuckerberg Initiative logo'/>
                 <div>
                     <h3>Incoming Software Engineering Intern <a href='https://tech.chanzuckerberg.com/scitech/' target='_blank'>@CZI</a><br/><em>June 2024 - Sep. 2024</em></h3>
                     <p>
@@ -37,7 +37,7 @@ function Experience () {
                         </li>
                     </ul>
                 </div>
-                <img className='mse-img' src='./src/assets/mse.jpg' alt='Material Science and Engineering building at UCR'/>
+                <img className='mse-img' src='/src/assets/mse.jpg' alt='Material Science and Engineering building at UCR'/>
             </div>
         </div>
     )
