@@ -1,6 +1,6 @@
 import '/styles/Education.css'
-import rccLogo from '../assets/RCC_logo.jpg'
-import ucrLogo from '../assets/ucr_logo.png'
+import rccLogo from '../assets/rcc_logo.png'
+import ucrLogo from '../assets/UCR_Color.png'
 
 function Education () {
     return (

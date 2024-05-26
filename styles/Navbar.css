@@ -3,18 +3,22 @@
     position: sticky;
     z-index: 100;
     display: flex;
-    width: 12rem;
+    width: fit-content;
     top: 0;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #fffefe;
     background-color: rgb(252, 249, 249);
     border-radius: 25px;
-    border: 2px solid black;
+    opacity: 0.85;
+    gap: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navbar a {
     padding: 15px;
+    color: black;
+    text-decoration: none;
 }
 
 .navbar img {
@@ -23,7 +27,7 @@
 }
 
 .navbar a:hover {
-    border-radius: 50%;
+    border-radius: 25px;
     border: 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }

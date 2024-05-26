@@ -1,9 +1,10 @@
 import Education from './components/Education.jsx'
 import Skills from './components/Skills.jsx'
+import Experience from './components/Experience.jsx'
+import Extracurricular from './components/Extracurricular.jsx'
+import Footer from './components/Footer.jsx'
 
 import myPhoto from './assets/photo_of_me.jpg'
-import githubLogo from './assets/github_logo.svg'
-import linkedinLogo from './assets/LinkedIn_icon.png'
 
 import '/styles/App.css'
 import "/styles/Navbar.css"
@@ -11,9 +12,15 @@ import "/styles/Navbar.css"
 function App() {
   return (
     <>
+      <div id='home'></div>
+
       <div className="navbar">
-        <a href="https://github.com/chris-delg" target="_blank"><img src={githubLogo} alt="Github logo"/></a>
-        <a href="https://linkedin.com/in/chris-delg" target="_blank"><img src={linkedinLogo} alt="LinkedIn logo"/></a>
+        <a href='#home'>Home</a>
+        <a href='#education'>Education</a>
+        <a href='#skills'>Skills</a>
+        <a href='#experience'>Experience</a>
+        <a href='#extracurricular'>Extracurriculars</a>
+        <a href='#footer'>Footer</a>
       </div>
     
       <div className='pageTop'>
@@ -28,25 +35,41 @@ function App() {
       <div className='about-container'>
         <div className='about-section'>
           <h2>About</h2>
-            <h3>I am a first generation college student who is passionate about software engineering. I have a background in 
+            <p>I am a first generation college student who is passionate about software engineering. I have a background in 
                 C/C++, Python, JavaScript and many other languages/technologies. Check out my resume below and the rest of this 
                 website for more information about me.
-            </h3>
+            </p>
           <a href="https://maroon-cathyleen-91.tiiny.site/" target="_blank">
             <button className="btn btn-shadow btn-shadow--blue"> <span>View resume</span> </button>
           </a>
         </div>
-        <div className='my-photo'>
-          <img src={myPhoto} alt='photo of me'></img>
+        <div className="item">
+          <div className="polaroid"><img src={myPhoto}/>
+            <div className="caption">Me at UCR</div>
+          </div>
         </div>
       </div>
 
-      <Education />
+      <div id='education'>
+        <Education />
+      </div>
 
-      <Skills />
+      <div id='skills'>
+        <Skills />
+      </div>
 
-      
-      
+      <div id='experience'>
+        <Experience />
+      </div>
+
+      <div id='extracurricular'>
+        <Extracurricular />
+      </div>
+
+      <div id='footer'>
+        <Footer />
+      </div>
+
     </>
   )
 }

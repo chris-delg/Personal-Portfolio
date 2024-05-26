@@ -1,17 +1,10 @@
 #root {
-  /*max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;*/
   text-align: center;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-}
-
-body {
-  margin-top: 50px;
 }
 
 .pageTop {
@@ -24,18 +17,36 @@ body {
   margin-bottom: 200px;
 }
 
-.my-photo img {
-  position: relative;
-  right: 40px;
-  width: 300px;
-  
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
-  border: 2px solid black;
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);  
   transition: transform 0.3s ease;
+  width: 300px;
+  transform: rotate(3deg);
 }
 
-.my-photo img:hover {
-  transform: scale(1.2) rotate(-10deg);
+.polaroid:hover {
+  transform: scale(1.09) rotate(-3deg);
+}
+
+.polaroid > img{
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  color: #000000;
+  font-family: cursive;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2em;
+}
+
+.item {
+  width: 30%;
+  display: inline-block;
+  margin-top: 2rem;
 }
 
 .name {
@@ -120,11 +131,6 @@ body {
   background: rgb(58, 134, 255);
 } 
 
-hr {
-  width: 100%;
-  color: black;
-}
-
 .about-container {
   width: 100%;
   display: flex;
@@ -134,11 +140,4 @@ hr {
 
 .about-section {
   width: 50%;
-
-}
-
-.about-section h2 {
-  font-weight: bold;
-  text-decoration: underline;
-  text-shadow: 4px 4px 8px #000000;
 }

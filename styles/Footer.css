@@ -1,0 +1,32 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-container a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    transition: transform 0.3s ease;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+.link img {
+    width: 125px;
+}

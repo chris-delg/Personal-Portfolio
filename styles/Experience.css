@@ -1,0 +1,30 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.experience-content img{
+    width: 500px;
+}   
+
+.experience-content li {
+    text-align: left;
+}
+
+.experience-content a {
+    text-decoration: none;
+}
+
+.experience-content {
+    width: 80%;
+    display: flex;
+    gap: 25px;
+    transition: transform 0.3s ease;
+}
+
+.experience-content:hover {
+    transform: scale(1.02);
+}
