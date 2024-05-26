@@ -1,5 +1,16 @@
 import '/styles/Skills.css'
 
+import cpp_logo from '/src/assets/C++.png'
+import python_logo from '/src/assets/Python.png'
+import js_logo from '/src/assets/js.png'
+import react_logo from '/src/assets/react.png'
+import html_logo from '/src/assets/html.png'
+import css_logo from '/src/assets/css.png'
+import node_logo from '/src/assets/nodejs.png'
+import java_logo from '/src/assets/java.png'
+import mongodb_logo from '/src/assets/mongodb.png'
+import git_logo from '/src/assets/git.png'
+
 function Skills () {
     return (
         <div className='skills-container'>
@@ -7,46 +18,46 @@ function Skills () {
 
             <div className='row'>
                 <div className='skill'> 
-                    <img src='../src/assets/C++.png' alt='C++ logo' />
+                    <img src={cpp_logo} alt='C++ logo' />
                     <p>C/C++</p>
                 </div>
                 <div className='skill'>
-                    <img src="../src/assets/Python.png" alt="Python logo" />
+                    <img src={python_logo} alt="Python logo" />
                     <p>Python</p>
                 </div>
                 <div className='skill'>
-                    <img src="../src/assets/js.png" alt="JavaScript logo" />
+                    <img src={js_logo} alt="JavaScript logo" />
                     <p>JavaScript</p>
                 </div>
                 <div className='skill'>
-                    <img src="../src/assets/react.png" alt="React.js logo" />
+                    <img src={react_logo} alt="React.js logo" />
                     <p>React</p>
                 </div>
                 <div className='skill'>
-                    <img src="../src/assets/html.png" alt="HTML logo" />
+                    <img src={html_logo} alt="HTML logo" />
                     <p>HTML</p>
                 </div>
                 <div className='skill'>
-                    <img src="../src/assets/css.png" alt="CSS logo" />
+                    <img src={css_logo} alt="CSS logo" />
                     <p>CSS</p>
                 </div>
                 <div className='skill'>
-                    <img src="../src/assets/nodejs.png" alt="Node.js logo" />
+                    <img src={node_logo} alt="Node.js logo" />
                     <p>Node.js</p>
                 </div>
             </div>
 
             <div className='row'>
                 <div className='skill'>
-                    <img src="../src/assets/java.png" alt="Java logo" />
+                    <img src={java_logo} alt="Java logo" />
                     <p>Java</p>
                 </div>
                 <div className='skill'>
-                    <img src="../src/assets/mongodb.png" alt="MongoDB logo" />
+                    <img src={mongodb_logo} alt="MongoDB logo" />
                     <p>MongoDB</p>
                 </div>
                 <div className='skill'>
-                    <img src="../src/assets/git.png" alt="Git logo" />
+                    <img src={git_logo} alt="Git logo" />
                     <p>Git</p>
                 </div>
             </div>
